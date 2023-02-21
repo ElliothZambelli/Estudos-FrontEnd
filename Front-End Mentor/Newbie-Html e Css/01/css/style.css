@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    width: 400px;
+    height: 400px;
+    display: table;
+    margin: 200px auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 60px;
+    background-color: #fff;
+}
+
+/* Permite que eu coloque o texto ao lado da imagem */
+.box-container {
+    display: flex;
+}
+
+.box-container h1 {
+    display: table;
+    font-family: 'Fraunces', serif;
+}
+
+.card-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.texto h1,p{
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.texto h2,h3{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    /*Permite que eu coloque um texto ao lado */
+    display: flex;
+    border: 4px;
+    border-radius: 4px;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    color: #fff;
+
+    /* Justifica o texto dentro do meu botão */
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h3{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}

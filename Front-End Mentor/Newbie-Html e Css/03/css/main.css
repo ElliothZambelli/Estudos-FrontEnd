@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    width: 400px;
+    height: 400px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px 600px;
+    border: 6px;
+    border-radius: 10px;
+    display: table;
+}
+
+.card-container h1{
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    margin: 30px;
+}
+
+.img{
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 6px;
+}
+.card-container p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px;
+}
+
+/*
+font-family: 'Outfit', sans-serif; Sintaxe fonte
+*/

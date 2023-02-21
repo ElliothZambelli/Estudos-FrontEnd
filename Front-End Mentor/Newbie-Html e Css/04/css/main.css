@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    width: 300px;
+    height: 300px;
+    margin: 30px 200px;
+    display: table;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card-container img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
